@@ -1,0 +1,35 @@
+{
+  "name": "coo-dialog",
+  "version": "1.0.0",
+  "description": "",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
+  "private": true,
+  "scripts": {},
+  "keywords": [
+    "ng2",
+    "angular2",
+    "dialog",
+    "confirm",
+    "prompt",
+    "alert",
+    "bootstrap",
+    "module",
+    "ngx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://marcel-ploch@bitbucket.org/coodoo-gmbh/coo-pop-up-box-delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/coodoo-gmbh/coo-pop-up-box-delivery/#readme",
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "git+https://coodoo-gmbh:Tq238PXquaLuOMwOPSQ7HlU5MVIiCez4@bitbucket.org/coodoo-gmbh/bootstrap-alpha16-patch.git#develop",
+    "bootstrap": "4.0.0-alpha.5"
+  },
+  "peerDependencies": {
+    "@angular/core": "4.0.0",
+    "@angular/common": "4.0.0"
+  }
+}
