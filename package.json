@@ -26,8 +26,8 @@
   "license": "ISC",
   "homepage": "https://github.com/coodoo-io/coo-dialog/#readme",
   "dependencies": {
-    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.23",
-    "bootstrap": "4.0.0-alpha.5"
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.17",
+    "bootstrap": "4.0.0-alpha.6"
   },
   "peerDependencies": {
     "@angular/core": "4.0.0",
