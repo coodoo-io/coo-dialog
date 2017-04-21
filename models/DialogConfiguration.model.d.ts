@@ -5,7 +5,7 @@ export declare class DialogConfiguration {
     private _settings;
     private _buttonPosition;
     /**
-     * The Constructor of the notification settings model
+     * The Constructor of the DialogConfiguration model
      * @param {string} msg
      * @param {DialogSettings} settings
      * @param {DialogButtonPosition} buttonPosition

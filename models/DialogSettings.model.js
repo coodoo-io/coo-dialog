@@ -7,16 +7,19 @@ var DialogSettings = (function () {
      * @param {string} textApprove
      * @param {boolean} promptTextRequried
      * @param {string} prompMessageTextLabel
+     * @param {boolean} showIcon
      */
-    function DialogSettings(textDecline, textApprove, promptTextRequried, promptMessageTextLabel) {
+    function DialogSettings(textDecline, textApprove, promptTextRequried, promptMessageTextLabel, showIcon) {
         if (textDecline === void 0) { textDecline = ''; }
         if (textApprove === void 0) { textApprove = ''; }
         if (promptTextRequried === void 0) { promptTextRequried = false; }
         if (promptMessageTextLabel === void 0) { promptMessageTextLabel = ''; }
+        if (showIcon === void 0) { showIcon = false; }
         this._textDecline = '';
         this._textApprove = '';
         this._promptTextRequried = false;
         this._promptMessageTextLabel = '';
+        this._showIcon = false;
         this._textDecline = textDecline;
         this._textApprove = textApprove;
         this._promptTextRequried = promptTextRequried;
@@ -47,6 +50,13 @@ var DialogSettings = (function () {
     Object.defineProperty(DialogSettings.prototype, "promptMessageTextLabel", {
         get: function () {
             return this._promptMessageTextLabel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DialogSettings.prototype, "showIcon", {
+        get: function () {
+            return this._showIcon;
         },
         enumerable: true,
         configurable: true

@@ -1,6 +1,6 @@
 var DialogButtonPosition = (function () {
     /**
-     * Constructor of Dialog Settings Module
+     * Constructor of DialogButtonPosition Module
      * The Object Containing the position class name for the button.
      * It could be decline-left or decline-right || approve-left or approve-right
      *

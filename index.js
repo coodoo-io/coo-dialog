@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AlertBoxComponent } from './components/alertBox/alertBox.component';
 import { ConfirmBoxComponent } from './components/confirmBox/confirmBox.component';
 import { PromptBoxComponent } from './components/promptBox/promptBox.component';
+import { Dialog } from './services/Dialog.service';
 /**
  * @module PopUpBoxesModule
  * @description
@@ -19,7 +20,7 @@ export { DialogModule };
 DialogModule.decorators = [
     { type: NgModule, args: [{
                 imports: [NgbModule.forRoot(), CommonModule, FormsModule],
-                providers: [],
+                providers: [Dialog],
                 declarations: [AlertBoxComponent, ConfirmBoxComponent, PromptBoxComponent],
                 entryComponents: [AlertBoxComponent, ConfirmBoxComponent, PromptBoxComponent],
                 exports: []
