@@ -8,7 +8,11 @@ export declare class ConfirmBoxComponent {
     notification: DialogConfiguration;
     constructor(activeModal: NgbActiveModal);
     /**
-     *
+     * Decline the modal layer
+     */
+    decline(): void;
+    /**
+     * Aprove the modal layer
      */
     approve(): void;
 }

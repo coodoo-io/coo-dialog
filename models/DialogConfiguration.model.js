@@ -2,7 +2,7 @@ import { DialogButtonPosition } from './DialogButtonPosition.model';
 import { DialogSettings } from './DialogSettings.model';
 var DialogConfiguration = (function () {
     /**
-     * The Constructor of the notification settings model
+     * The Constructor of the DialogConfiguration model
      * @param {string} msg
      * @param {DialogSettings} settings
      * @param {DialogButtonPosition} buttonPosition
