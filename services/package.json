@@ -1,14 +1,10 @@
 {
   "name": "coo-dialog",
-<<<<<<< HEAD
-  "version": "1.0.2",
-=======
-  "version": "1.0.1",
->>>>>>> eca91732ec8660e8036175bb099b45e134d88c63
+  "version": "1.0.0",
   "description": "",
   "module": "./index.js",
   "typings": "./index.d.ts",
-  "private": false,
+  "private": true,
   "scripts": {},
   "keywords": [
     "ng2",
@@ -30,15 +26,11 @@
   "license": "ISC",
   "homepage": "https://github.com/coodoo-io/coo-dialog/#readme",
   "dependencies": {
-    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.17",
-    "bootstrap": "4.0.0-alpha.6"
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.23",
+    "bootstrap": "4.0.0-alpha.5"
   },
   "peerDependencies": {
     "@angular/core": "4.0.0",
     "@angular/common": "4.0.0"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> eca91732ec8660e8036175bb099b45e134d88c63
