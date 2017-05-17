@@ -1,0 +1,8 @@
+.foo {
+    background: red;
+}
+
+.no-icon .notification-message {
+    padding-left: 60px;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,14 @@
+<div class="pop-up-box mode-alert">
+    <div class="modal-body">
+        <div class="swal2-icon swal2-info pulse-info">i</div>
+        <div [innerHTML]="notification.msg" class="notification-message"></div>
+        <div class="input-wrapper form-group" [ngClass]="{'required': notification.settings.promptTextRequired, 'has-error': hasError, 'has-feedback': hasError}">
+            <label for="notification-message-text" *ngIf="notification.settings.promptMessageTextLabel" class="control-label">{{notification.settings.promptMessageTextLabel}}</label>
+            <input [ngModel]="value" (ngModelChange)="value=$event" class="form-control" type="text" id="notification-message-text" />
+        </div>
+    </div>
+    <div class="modal-footer">
+        <span (click)="decline()" class="btn btn-secondary {{notification.buttonPosition.positionDecline}}">{{notification.settings.textDecline}}</span>
+        <span (click)="approve()" class="btn btn-primary {{notification.buttonPosition.positionApprove}} {{notification.buttonPosition.positionDecline}}">{{notification.settings.textApprove}}</span>
+    </div>
+</div>

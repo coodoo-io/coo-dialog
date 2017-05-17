@@ -1,0 +1,23 @@
+input {
+    width:100%
+}
+
+label {
+    margin-left: -85px;
+}
+
+.input-wrapper.required {
+    padding-top: 25px;
+}
+
+.required label::after {
+    content: '*';
+}
+
+.has-error .control-label {
+    color:#a94442;
+}
+
+.has-error .form-control {
+    border-color: #a94442;
+}

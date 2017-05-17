@@ -1,0 +1,9 @@
+.content-buttons {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+.content-buttons.position {
+    top: 35%;
+}

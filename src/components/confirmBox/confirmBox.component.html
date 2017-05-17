@@ -1,0 +1,15 @@
+<div class="pop-up-box mode-alert">
+    <div class="modal-body" [ngClass]="{'no-icon': !notification.settings.showIcon}">
+        <div *ngIf="notification.settings.showIcon" class="swal2-icon swal2-success animate">
+            <span class="line tip animate-success-tip"></span>
+            <span class="line long animate-success-long"></span>
+            <div class="placeholder"></div>
+            <div class="fix"></div>
+        </div>
+        <div [innerHTML]="notification.msg" class="notification-message"></div>
+    </div>
+    <div class="modal-footer">
+        <span (click)="decline()" class="btn btn-secondary {{notification.buttonPosition.positionDecline}}">{{notification.settings.textDecline}}</span>
+        <span (click)="approve()" class="btn btn-primary {{notification.buttonPosition.positionApprove}} {{notification.buttonPosition.positionDecline}}">{{notification.settings.textApprove}}</span>
+    </div>
+</div>

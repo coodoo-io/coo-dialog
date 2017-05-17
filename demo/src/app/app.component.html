@@ -1,0 +1,26 @@
+<template ngbModalContainer></template>
+<tr>
+  <td>
+    <button onClick="alert('Hallo Welt!');">Alert Button</button>
+    <div>window.alert()</div>
+  </td>
+  <td><button (click)="clickAlert()" class="btn btn-primary">Alert Button</button>
+    <div>cooDialog.alert()</div>
+  </td>
+</tr>
+<tr>
+  <td><button onClick="alert('Hallo Welt!');">Confirm Button</button>
+    <div>window.confirm()</div>
+  </td>
+  <td><button (click)="clickConfirm()" class="btn btn-primary">Confirm Button</button>
+    <div>cooDialog.confirm()</div>
+  </td>
+</tr>
+<tr>
+  <td><button onClick="alert('Hallo Welt!');">Prompt Button</button>
+    <div>window.prompt()</div>
+  </td>
+  <td><button (click)="clickPrompt()" class="btn btn-primary">Prompt Button</button>
+    <div>cooDialog.prompt()</div>
+  </td>
+</tr>

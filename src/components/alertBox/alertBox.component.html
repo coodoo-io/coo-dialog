@@ -1,0 +1,9 @@
+<div class="pop-up-box mode-alert">
+    <div class="modal-body">
+        <div class="swal2-icon swal2-warning pulse-warning" style="display: block;">!</div>
+        <div [innerHTML]="notification.msg" class="notification-message"></div>
+    </div>
+    <div class="modal-footer">
+        <span (click)="approve()" class="btn btn-primary {{notification.buttonPosition.positionApprove}}">{{notification.settings.textApprove}}</span>
+    </div>
+</div>

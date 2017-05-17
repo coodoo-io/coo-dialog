@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/src/assets/css/narrow-jumbotron.css">
+  <link rel="stylesheet" type="text/css" href="/src/assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="header text-xs-center">
+      <i class="icon ion-ios-chatboxes-outline"></i>
+      <h1><span style="font-weight: 300;">coo</span>Dialog</h1>
+      <p class="lead text-muted">Replace your oldschool browser dialog's with shiny new ones in angular!</p>
+    </header>
+
+    <div class="content">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-uppercase">1. Demo</h2>
+          <table class="table table-inverse">
+            <thead>
+              <tr>
+                <th>Before</th>
+                <th>After</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+
+          <h2 class="text-uppercase">2. How to use</h2>
+          <p>Every Service call will return a promise with the information about the closing of the dialog. In the <b>then</b>            function the approval of the Dialog will be catched in the <b>catch</b> block the dismissal. The data will contain
+            an object with the key status for the information about the state. In the Prompt dialog there will also be a
+            value key with the information from the input field.
+            <b>Alert</b> and <b>Confirm</b> only have a accept button so yu can only close them and get the status information
+            in the
+            <b>then block</b>.</p>
+          <script src="https://gist.github.com/marcel-ploch/305be06696b6133bc99005fffd871ee1.js"></script>
+
+          <h2 class="text-uppercase">3. Contribute</h2>
+          <p></p>
+          <br/><br/>
+          <p class="text-xs-center"><a class="btn btn-success" href="https://github.com/coodoo-io/coo-dialog" role="button">Go to Github</a></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer text-xs-center">
+      <p>Build with <i class="icon ion-heart"></i> in Mainz</p>
+      <p>&copy; coodoo GmbH 2017</p>
+    </footer>
+
+  </div>
+  <!-- /container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>

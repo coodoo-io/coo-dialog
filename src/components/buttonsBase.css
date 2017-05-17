@@ -1,0 +1,38 @@
+.approve-right,
+.decline-right {
+    margin-left:auto !important;
+}
+
+.approve-right.decline-right {
+    margin-left: 0.25em !important;
+}
+
+.approve-right.decline-left {
+    margin-right: 0.25em;
+}
+
+.decline-left {
+    margin-right: 20px;
+}
+
+.modal-footer {
+    clear:both;
+    justify-content: initial;
+}
+
+.swal2-warning,
+.swal2-success,
+.swal2-info {
+    float:left;
+    left: 20px;
+}
+
+.notification-message {
+    padding-top: 40px;
+    padding-left: 120px;
+}
+
+.modal-dialog {
+    position: relative;
+    top:40%;
+}
