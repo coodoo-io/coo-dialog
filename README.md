@@ -4,7 +4,7 @@
 
 > This is an Angular 2 Module for having standard Pop Up Dialogs with Bootstrap 4 Styling
 
-[Visit our Demo Page](http://s3.eu-central-1.amazonaws.com/coodoo-baf-resources/coo-dialog/static-demo-page/src/index.html)
+[Visit our Demo Page](http://coo-dialog.coodoo.io)
 
 ## Table of Contents
 
